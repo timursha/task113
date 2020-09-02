@@ -19,12 +19,6 @@ public class UserDaoHibernateImpl implements UserDao {
 
     @Override
     public void createUsersTable() {
-//        session = session.getSessionFactory().openSession();
-//        session.beginTransaction();
-//        String sql = "CREATE TABLE IF NOT EXISTS users (id integer primary key auto_increment not null, name varchar(124), lastName varchar(124), age int)";
-//        int a = session.createQuery(sql).executeUpdate();
-//        session.beginTransaction().commit();
-//        session.close();
     }
 
     @Override
